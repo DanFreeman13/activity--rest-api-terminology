@@ -131,14 +131,15 @@ $ curl -X GET https://api.github.com
 
 According to the responded request, answer what does it mean the next parts from the handler:
 
-+ _`Content-Type`_. _Write it here_
-+ _`Status`_. _Write it here_
-+ _`Date`_. _Write it here_
-+ _`Content-Length`_. _Write it here_
++ _`Content-Type`_. _It is the media type of the resource_
++ _`Status`_. _It is the status code, which indicates whether a specific HTTP request has been successfully completed_
++ _`Date`_. _Contains date and the time at which the content was generated_
++ _`Content-Length`_. _It indicates the size (in bytes) of the entity body sent to the recipient_
 
 
 ###### If response is not showing those parts, ask to google how to print them in console.
 
 ```sh
-# Paste the response
+# $ curl -i GET https://api.github.com
+
 ```
