@@ -140,6 +140,6 @@ According to the responded request, answer what does it mean the next parts from
 ###### If response is not showing those parts, ask to google how to print them in console.
 
 ```sh
-# $ curl -i GET https://api.github.com
+$ curl -i GET https://api.github.com
 
 ```
